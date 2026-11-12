@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "SeaClient - Fabric Client Mod",
+    version: "v1.0.0 (MC 26.3)",
+    description: "ม็อดไคลเอนต์ Minecraft Fabric ประสิทธิภาพสูง ธีม Dark ดีไซน์มุมเหลี่ยมเฉียบคม พร้อม Hypixel Bedwars & PvP HUD, CPS Tracker, ระบบเล่นเพลง Windows Media แบบเรียลไทม์ และเมนูปรับแต่ง FPS (Right-Shift)",
+    tags: ["Fabric", "Java 25", "Minecraft 26.3", "Mixin", "Bedwars HUD", "Open Source"],
+    github: "https://github.com/seaze-code/SeaClient",
+    images: []
+  },
+  {
     title: "Classroom Web Portal",
     version: "Full-Stack Web",
     description: "ระบบเว็บพอร์ทัลจัดการห้องเรียนออนไลน์ พร้อม Admin Command Center จัดการข้อมูลคณะกรรมการ ตารางเรียน การมาเรียน และประวัติพฤติกรรม",
