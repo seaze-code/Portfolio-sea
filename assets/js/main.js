@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "Classroom Web Portal",
+    version: "Full-Stack Web",
+    description: "ระบบเว็บพอร์ทัลจัดการห้องเรียนออนไลน์ พร้อม Admin Command Center จัดการข้อมูลคณะกรรมการ ตารางเรียน การมาเรียน และประวัติพฤติกรรม",
+    tags: ["Python", "Flask", "Tailwind CSS", "Waitress"],
+    github: "https://github.com/seaze-code/classroom-web",
+    images: []
+  },
+  {
     title: "Vineflower Decompiler CLI",
     version: "CLI / Tools",
     description: "Windows CLI wrapper และ Drag & Drop GUI สำหรับ Vineflower 1.12.0 แปลงไฟล์ .jar เป็น Java source code อ่านง่าย พร้อมจัดโครงสร้างโฟลเดอร์ให้อัตโนมัติ",
