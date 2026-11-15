@@ -1,17 +1,17 @@
 const projects = [
   {
-    title: "JarStudio - Bytecode & Resource Patcher",
-    version: "v1.0.0 (Desktop Studio)",
-    description: "เครื่องมือแก้ไขข้อความใน Bytecode Constant Pool (0xCAFEBABE) และไฟล์ Config/Resource (.yml, .json, .png) ภายในไฟล์ .jar โดยตรงแบบไม่ต้องบิ้วด์โค้ดใหม่ พร้อมระบบป้องกัน Shared-Slot, พรีวิวสี Minecraft (§ / Hex) แบบสด และ Vineflower Decompiler ในตัว",
-    tags: ["C#", "WPF Studio", "JVM Bytecode", "Constant Pool", "Vineflower", "Open Source"],
+    title: "JarPatcher",
+    version: "Bytecode Tool",
+    description: "เครื่องมือแก้ไขข้อความใน Bytecode Constant Pool (0xCAFEBABE) และไฟล์ Config/Resource (.yml, .json, .png) ในไฟล์ .jar โดยตรงแบบไม่ต้องบิ้วด์ใหม่ พร้อมพรีวิวสี Minecraft และ Vineflower ในตัว",
+    tags: ["C#", "WPF", "Bytecode", "Vineflower"],
     github: "https://github.com/seaze-code/JarPatcher",
     images: []
   },
   {
-    title: "SeaClient - Fabric Client Mod",
-    version: "v1.0.0 (MC 26.3)",
-    description: "ม็อดไคลเอนต์ Minecraft Fabric ประสิทธิภาพสูง ธีม Dark ดีไซน์มุมเหลี่ยมเฉียบคม พร้อม Hypixel Bedwars & PvP HUD, CPS Tracker, ระบบเล่นเพลง Windows Media แบบเรียลไทม์ และเมนูปรับแต่ง FPS (Right-Shift)",
-    tags: ["Fabric", "Java 25", "Minecraft 26.3", "Mixin", "Bedwars HUD", "Open Source"],
+    title: "SeaClient",
+    version: "Fabric Mod",
+    description: "ม็อดไคลเอนต์ Minecraft Fabric ประสิทธิภาพสูง ธีม Dark ดีไซน์มุมเหลี่ยมเฉียบคม พร้อม Hypixel Bedwars & PvP HUD, CPS Tracker, ระบบเล่นเพลงเรียลไทม์ และเมนูปรับแต่ง FPS",
+    tags: ["Fabric", "Java", "Mixin", "Bedwars HUD"],
     github: "https://github.com/seaze-code/SeaClient",
     images: []
   },
@@ -24,10 +24,10 @@ const projects = [
     images: []
   },
   {
-    title: "Vineflower Decompiler CLI",
+    title: "Vineflower CLI",
     version: "CLI / Tools",
-    description: "Windows CLI wrapper และ Drag & Drop GUI สำหรับ Vineflower 1.12.0 แปลงไฟล์ .jar เป็น Java source code อ่านง่าย พร้อมจัดโครงสร้างโฟลเดอร์ให้อัตโนมัติ",
-    tags: ["C#", ".NET", "Vineflower", "Java", "CLI"],
+    description: "Windows CLI wrapper และ Drag & Drop สำหรับ Vineflower 1.12.0 แปลงไฟล์ .jar เป็น Java source code ความเร็วสูงด้วย AppCDS พร้อมแสดงสถานะแบบเรียลไทม์",
+    tags: ["C#", ".NET", "Vineflower", "Java"],
     github: "https://github.com/seaze-code/JarDecompiler",
     images: []
   },

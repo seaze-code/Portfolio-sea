@@ -446,17 +446,18 @@ body{
 
 .project-card-header{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  gap: 10px;
-  margin-bottom: 12px;
+  gap: 12px;
+  margin-bottom: 10px;
 }
 
 .project-card-header h3{
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1.08rem;
+  font-weight: 700;
   color: var(--text);
   letter-spacing: -0.3px;
+  line-height: 1.35;
 }
 
 .badge{
@@ -468,6 +469,7 @@ body{
   padding: 2px 8px;
   border-radius: 4px;
   white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .project-card-desc{
@@ -475,6 +477,10 @@ body{
   color: var(--text-muted);
   line-height: 1.6;
   margin-bottom: 18px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .project-card-tags{
