@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "JarStudio - Bytecode & Resource Patcher",
+    version: "v1.0.0 (Desktop Studio)",
+    description: "เครื่องมือแก้ไขข้อความใน Bytecode Constant Pool (0xCAFEBABE) และไฟล์ Config/Resource (.yml, .json, .png) ภายในไฟล์ .jar โดยตรงแบบไม่ต้องบิ้วด์โค้ดใหม่ พร้อมระบบป้องกัน Shared-Slot, พรีวิวสี Minecraft (§ / Hex) แบบสด และ Vineflower Decompiler ในตัว",
+    tags: ["C#", "WPF Studio", "JVM Bytecode", "Constant Pool", "Vineflower", "Open Source"],
+    github: "https://github.com/seaze-code/JarPatcher",
+    images: []
+  },
+  {
     title: "SeaClient - Fabric Client Mod",
     version: "v1.0.0 (MC 26.3)",
     description: "ม็อดไคลเอนต์ Minecraft Fabric ประสิทธิภาพสูง ธีม Dark ดีไซน์มุมเหลี่ยมเฉียบคม พร้อม Hypixel Bedwars & PvP HUD, CPS Tracker, ระบบเล่นเพลง Windows Media แบบเรียลไทม์ และเมนูปรับแต่ง FPS (Right-Shift)",
