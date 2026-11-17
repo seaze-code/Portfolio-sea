@@ -1,9 +1,9 @@
 const projects = [
   {
     title: "SeaPanel",
-    version: "Paper Plugin (1.21.11 - 26.3)",
+    version: "Paper Plugin",
     description: "ปลั๊กอิน Paper/Purpur ที่มี Web Dashboard ในตัว เข้าใช้งานผ่าน IP เครื่องได้ทันทีไม่ต้องใช้โดเมน พร้อมระบบจัดการผู้เล่น, Live Console (SSE), ตัวสแกนมัลแวร์ในไฟล์ .jar ปลั๊กอิน และแก้ไขไฟล์ Config บนเว็บได้โดยตรง",
-    tags: ["Paper API", "Java 21", "Web Dashboard", "Malware Scanner", "SSE"],
+    tags: ["Paper API", "Java 21", "Web Dashboard", "Security"],
     github: "https://github.com/seaze-code/SeaPanel",
     images: []
   },
